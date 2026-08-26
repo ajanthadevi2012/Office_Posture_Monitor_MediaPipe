@@ -31,15 +31,15 @@ Install the required libraries:
 ```bash
 pip install opencv-python mediapipe numpy
 ```
-How to Run
-Step 1: Open the notebook
+**How to Run
+Step 1:** Open the notebook
 Open:
 ```text
 Office_Posture_Monitor_With_Recording.ipynb
 ```
-Step 2: Run all setup and class-definition cells
+**Step 2:** Run all setup and class-definition cells
 Execute the notebook cells in order so that the `OfficePostureMonitor` class and required functions are available.
-Step 3: Run the recording cell
+**Step 3:** Run the recording cell
 The webcam will open and the posture monitoring system will begin processing frames.
 The processed frame is:
 Displayed live
@@ -50,7 +50,7 @@ The recording uses:
 github_link = "github.com/ajanthadevi2012"
 output_path = "posture_output.mp4"
 ```
-Step 4: Stop recording
+**Step 4:** Stop recording
 Press:
 ```text
 Q
@@ -98,7 +98,7 @@ To use another repository or profile, change:
 ```python
 github_link = "github.com/ajanthadevi2012"
 ```
-Suggested Dashboard Extensions
+**Suggested Dashboard Extensions**
 The current project can be extended with the following dashboard features:
 Session timer
 Good vs poor posture duration
@@ -128,5 +128,6 @@ to another camera index such as:
 cap = cv2.VideoCapture(1)
 ```
 The output video is saved relative to the folder from which the notebook is running.
-Author
+**Author
 GitHub: github.com/ajanthadevi2012
+**
