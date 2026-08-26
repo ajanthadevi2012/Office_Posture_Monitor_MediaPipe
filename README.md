@@ -1,4 +1,5 @@
-Office Posture Monitor MediaPipe
+**Office Posture Monitor MediaPipe**
+
 A real-time computer vision project that monitors office posture using a webcam and saves the processed output video automatically.
 Features
 Real-time webcam-based posture monitoring
